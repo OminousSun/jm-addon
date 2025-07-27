@@ -1,4 +1,4 @@
-package net.ominoussun.jmaddon;
+package com.ominoussun.jmaddon;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;

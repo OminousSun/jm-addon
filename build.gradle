@@ -113,6 +113,7 @@ dependencies {
 
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:journeymap-32274:5789363") // JourneyMap
+    implementation fg.deobf("curse.maven:natural-progressions-349530:5901635") // Natural Progression
 
 }
 

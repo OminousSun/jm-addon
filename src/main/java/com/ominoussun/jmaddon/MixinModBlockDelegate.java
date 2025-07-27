@@ -1,7 +1,9 @@
 package com.ominoussun.jmaddon;
 
+import com.mojang.logging.LogUtils;
 import journeymap.client.mod.IModBlockHandler;
 import journeymap.client.mod.ModBlockDelegate;
+import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -24,7 +26,8 @@ public class MixinModBlockDelegate
     )
     public void reset(CallbackInfo ci)
     {
-        this.handlerClasses.put("natprog", NaturalProgression.class);
+        System.out.println("Injection in process");
+        handlerClasses.put("natprog", NaturalProgression.class);
     }
 
 

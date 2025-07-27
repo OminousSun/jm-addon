@@ -14,7 +14,7 @@ public class ExampleMod
     public ExampleMod()
     {
         MixinBootstrap.init();
-        Mixins.addConfiguration("mixin.json");
+        Mixins.addConfiguration("jmaddon.mixins.json");
 
     }
 }

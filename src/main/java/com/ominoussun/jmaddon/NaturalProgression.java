@@ -12,7 +12,7 @@ public class NaturalProgression implements IModBlockHandler
     public void initialize(BlockMD blockMD)
     {
         String name = blockMD.getBlockId().toLowerCase();
-        if(name.contains("pebble") || name.contains("twig"))
+        if(name.contains("pebble") || name.contains("twigs"))
         {
             System.out.println("Block Hidden");
             blockMD.addFlags(BlockFlag.Ignore, BlockFlag.NoShadow, BlockFlag.NoTopo);

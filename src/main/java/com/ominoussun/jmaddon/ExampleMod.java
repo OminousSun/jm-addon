@@ -14,8 +14,7 @@ public class ExampleMod
     public ExampleMod()
     {
         MixinBootstrap.init();
-        System.out.println("TEST 1");
-        Mixins.addConfiguration("mixins.json");
-        System.out.println("TEST 2");
+        Mixins.addConfiguration("mixin.json");
+
     }
 }

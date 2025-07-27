@@ -14,6 +14,7 @@ public class NaturalProgression implements IModBlockHandler
         String name = blockMD.getBlockId().toLowerCase();
         if(name.contains("pebble") || name.contains("twig"))
         {
+            System.out.println("Block Hidden");
             blockMD.addFlags(BlockFlag.Ignore, BlockFlag.NoShadow, BlockFlag.NoTopo);
         }
     }

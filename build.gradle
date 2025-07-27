@@ -109,11 +109,13 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven { url "https://repo.spongepowered.org/maven"}
 }
 
 dependencies {
 
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    implementation fg.deobf('org.spongepowered:mixin:0.8.5:processor')
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor' // Mixin
     implementation fg.deobf("curse.maven:journeymap-32274:5789363") // JourneyMap
     implementation fg.deobf("curse.maven:natural-progressions-349530:5901635") // Natural Progression

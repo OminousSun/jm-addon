@@ -1,4 +1,4 @@
-package com.ominoussun.jmaddon;
+package com.ominoussun.jm_natprog_compat;
 
 import journeymap.client.mod.IModBlockHandler;
 import journeymap.client.model.BlockFlag;
